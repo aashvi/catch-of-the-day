@@ -1,4 +1,5 @@
 import React from 'react' ;
+import Fish from './Fish';
 
 
 
@@ -13,12 +14,11 @@ const Header = (props) => {
 					<span className="of">of </span>
 					<span className="The">The </span>
 					</span>
-
-
 				 day 
 
 				</h1>
 				<h3 className="tagline"> <span>{props.tagline} </span></h3>
+				<Fish />
 				</header>
 
 			)
