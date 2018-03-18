@@ -59,6 +59,8 @@ class App extends React.Component {
 				</div>
 				<Order/>
 				<Inventory addFish= {this.addFish} loadSamples={this.loadSamples} />
+			
+				{console.log('xd')}
 			</div>
 			)
 
